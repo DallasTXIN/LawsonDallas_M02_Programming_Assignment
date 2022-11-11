@@ -2,14 +2,13 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package assigngrades;
+package weeklyhours;
 
 /**
  *
  * @author Dallas Lawson
  */
 public class WeeklyHours {
-    public class Exercise_08_04 {
 	public static void main(String[] args) {
 		int[][] weeklyHours = { {2, 4, 3, 4, 5, 8, 8},
 										{7, 3, 4, 3, 3, 4, 4},
@@ -57,11 +56,10 @@ public class WeeklyHours {
 		}
 	}
 	public static void print(int[][] m) {
-		System.out.println("Employee     Weekly Hours");
+		System.out.println("Employee \t Weekly Hours");
 		System.out.println("-------------------------");
 		for (int row = 0; row < m.length; row++) {
-				System.out.printf("%4d%16d\n", m[row][0], totalHours[row][1]);
+				System.out.println( m[row][0] + "\t \t \t" + m[row][1]);
 		}	
 	}
-}
 }
