@@ -3,15 +3,13 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package assigngrades;
-
+import java.util.Scanner;
 /**
  *
  * @author Dallas Lawson
  */
 public class AssignGrades {
-import java.util.Scanner;
 
-public class assignGrades {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		System.out.print("Enter the nubmer of students: ");
@@ -50,11 +48,4 @@ public class assignGrades {
 				grades[i] = 'F';
 		}
 	} 
-}
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
 }
